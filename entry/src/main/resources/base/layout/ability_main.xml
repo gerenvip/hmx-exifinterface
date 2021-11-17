@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="horizontal_center"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:albumSelect"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:background_element="$graphic:btn_bg"
+        ohos:padding="16vp"
+        ohos:text="选择照片"
+        ohos:text_color="#ffffff"
+        ohos:text_size="16fp"
+        ohos:top_margin="32vp"/>
+
+    <Image
+        ohos:id="$+id:image"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="center"
+        ohos:scale_mode="zoom_center"/>
+
+</DirectionalLayout>

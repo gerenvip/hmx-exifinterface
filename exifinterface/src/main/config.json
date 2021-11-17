@@ -1,0 +1,23 @@
+{
+  "app": {
+    "bundleName": "hmx.exifinterface.media",
+    "vendor": "exifinterface",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "hmx.exifinterface.media",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "exifinterface",
+      "moduleType": "har"
+    }
+  }
+}
